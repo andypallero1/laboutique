@@ -1,0 +1,82 @@
+ [
+    {
+      "id": 1,
+      "nombre": "Buzo Champions",
+      "cantidad": 1,
+      "desc": "",
+      "precio": 7500,
+      "img": "img/BUZOCHAMP.png"
+    },
+    {
+        "id": 2,
+        "nombre": "Remera Niño",
+        "cantidad": 1,
+        "desc": "",
+        "precio":2500 ,
+        "img": "img/BUZOPEQUE.png"
+    },
+    {
+        "id": 3,
+        "nombre": "Campera Lacoste",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 9000,
+        "img": "img/CAMPLACOSTE.png"
+    },
+    {
+        "id": 4,
+        "nombre": "Campera niño",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 4000,
+        "img": "img/CONJUNTO.png"
+    },
+    {
+        "id": 5,
+        "nombre": "Jean Vancouver",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 9500 ,
+        "img": "img/JEAN.png"
+    },
+    {
+        "id": 6,
+        "nombre": "Jogger Tommy",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 7500 ,
+        "img": "img/JOGGERTOMMY.png"
+    },
+    {
+        "id": 7,
+        "nombre": "Pantalones mujer",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 6500,
+        "img": "img/PANTCOLORES.png"
+    },
+    {
+        "id": 8,
+        "nombre": "Pantalon",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 3500,
+        "img": "img/PANTII.png"
+    },
+    {
+        "id": 9,
+        "nombre": "Remeritas niñas ",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 2200,
+        "img": "img/REMERITAS.png"
+    },
+    {
+        "id": 10,
+        "nombre": "Joggin niño",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 4000,
+        "img": "img/REMEYPANT.png"
+    }
+]
