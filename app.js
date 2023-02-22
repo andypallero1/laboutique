@@ -1,4 +1,3 @@
-
 let carrito = [];
 
 const contenedor = document.querySelector("#contenedor");
@@ -11,19 +10,20 @@ const totalProceso = document.querySelector("#totalProceso");
 const formulario = document.querySelector('#procesar-pago')
 
 if (activarFuncion) {
-  activarFuncion.addEventListener("click", procesarPedido);
+  activarFuncion.addEventListener("click", procesarPedido());
 }
 
 document.addEventListener("DOMContentLoaded", () => {
   carrito = JSON.parse(localStorage.getItem("carrito")) || [];
 
   mostrarCarrito();
-  document.querySelector("#activarFuncion").click(procesarPedido);
+
 });
+
+
 if(formulario){
   formulario.addEventListener('submit', enviarCompra)
 }
-
 
 if (vaciarCarrito) {
   vaciarCarrito.addEventListener("click", () => {
@@ -51,29 +51,32 @@ if (procesarCompra) {
 let arr = [] ;
 
 const stockProductos = () =>{
-fetch('./data.json')
-       .then(res=>res.json())  
-        .then(json =>console.log(json)) 
+  fetch('data.json')
+    .then(res=>res.json())
+    .then(json =>cargarProd(json))
 }
 
+const cargarProd = (a) => {
+  a.forEach(prod => {
+    arr.push(prod);
+    const { id, nombre, precio, desc, img, cantidad } = prod;
+    if (contenedor) {
+      contenedor.innerHTML += `
+      <div class="card mt-3" style="width: 18rem;">
+        <img class="card-img-top mt-2" src="${img}" alt="Card image cap">
+        <div class="card-body">
+          <h5 class="card-title">${nombre}</h5>
+          <p class="card-text">Precio: ${precio}</p>
+          <p class="card-text">Descripcion: ${desc}</p>
+          <p class="card-text">Cantidad: ${cantidad}</p>
+          <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
+        </div>
+      </div>`;
+    }
+  });
+}
 
-stockProductos.forEach((prod) => {
-  const { id, nombre, precio, desc, img, cantidad } = prod;
-  if (contenedor) {
-    contenedor.innerHTML += `
-    <div class="card mt-3" style="width: 18rem;">
-    <img class="card-img-top mt-2" src="${img}" alt="Card image cap">
-    <div class="card-body">
-      <h5 class="card-title">${nombre}</h5>
-      <p class="card-text">Precio: ${precio}</p>
-      <p class="card-text">Descripcion: ${desc}</p>
-      <p class="card-text">Cantidad: ${cantidad}</p>
-      <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
-    </div>
-  </div>
-    `;
-  }
-});
+stockProductos();
 
 const agregarProducto = (id) => {
   const existe = carrito.some(prod => prod.id === id)
@@ -85,7 +88,8 @@ const agregarProducto = (id) => {
       }
     })
   } else {
-    const item = stockProductos.find((prod) => prod.id === id)
+    console.log(arr)
+    const item = arr.find(prod => prod.id === id)
     carrito.push(item)
   }
   mostrarCarrito()
@@ -96,7 +100,8 @@ const mostrarCarrito = () => {
   const modalBody = document.querySelector(".modal .modal-body");
   if (modalBody) {
     modalBody.innerHTML = "";
-    carrito.forEach((prod) => {
+    carrito.forEach(prod => {
+      console.log(prod);
       const { id, nombre, precio, desc, img, cantidad } = prod;
       console.log(modalBody);
       modalBody.innerHTML += `
@@ -118,7 +123,6 @@ const mostrarCarrito = () => {
   }
 
   if (carrito.length === 0) {
-    console.log("Nada");
     modalBody.innerHTML = `
     <p class="text-center text-primary parrafo">¡Aun no agregaste nada!</p>
     `;
