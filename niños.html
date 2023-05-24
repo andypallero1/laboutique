@@ -24,13 +24,14 @@
     <title>La Boutique</title>
     <link rel="icon" href="img/favicon-removebg-preview.png" type="image/png">
   </head>
-  <body>
+  <body class="body">
     <header>
       <nav class="navbar navbar-light bg-dark min-vw-100">
         <a href="index.html"><h2 class="p-3 textwhite">LA BOUTIQUE</h2></a>
         <a href="hombre.html"><h1 class="p-3 text-white">Hombre</h1></a>
         <a href="mujer.html"><h1 class="p-3 text-white">Mujer</h1></a>
         <a href="niños.html"><h1 class="p-3 text-white">Niños</h1></a>
+
         <ul class="navbar-nav">
           <li class="nav-item">
             <a
@@ -38,28 +39,15 @@
               data-bs-toggle="modal"
               data-bs-target="#modal"
             >
-            <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
+              <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
             </a>
           </li>
         </ul>
       </nav>
     </header>
-    <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
-      <div class="carousel-inner">
-        <div class="carousel-item active">
-          <img src="img/ferkley.png" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/negrooscuro.jpg" class="d-block w-100" alt="...">
-        </div>
-        <div class="carousel-item">
-          <img src="img/calvink.jpg" class="d-block w-100" alt="...">
-        </div>
-      </div>
-    </div>
     <main>
       <div class="row mt-5" id="contenedor"></div>
-        </main>
+    </main>
     
 
     <div class="container-xl">
@@ -101,6 +89,7 @@
       </div>
     </div>
 
+    <script src="n-app.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
   </body>

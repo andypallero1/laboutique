@@ -1,0 +1,146 @@
+[
+    {
+        "id": 11,
+        "nombre": "",
+        "talles": "S al XL",
+        "desc": "Mujer",
+        "precio": 12900,
+        "img": "img/.jpeg"
+    },
+    {
+        "id": 12,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio":5000,
+        "img": "img/.jpeg"
+    },
+    {
+        "id": 13,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio":5000 ,
+        "img": "img/.jpeg"
+    },
+    {
+        "id": 14,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": "img/.jpeg"
+    },
+    {
+        "id": 15,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": "img/.jpeg"
+    },
+    {
+        "id": 16,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": "img/.jpeg"
+    },
+    {
+        "id": 17,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 18,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 19,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 20,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 21,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 22,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 23,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 24,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    }
+]

@@ -1,0 +1,146 @@
+ [
+    {
+        "id": 11,
+        "nombre": "Campera puffer verde",
+        "talles": "S al XL",
+        "desc": "Mujer",
+        "precio": 12900,
+        "img": "img/CAMPERA MUJER VERDE.jpeg"
+    },
+    {
+        "id": 12,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio":5000,
+        "img": "img/CAMPERA MUJER NEGRA.jpeg"
+    },
+    {
+        "id": 13,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio":5000 ,
+        "img": "img/CAMPERA NEGRA M.jpeg"
+    },
+    {
+        "id": 14,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": "img/CHALECO NEGRO B.jpeg"
+    },
+    {
+        "id": 15,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": "img/CHALECO NEGRO.jpeg"
+    },
+    {
+        "id": 16,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": "img/CHALECO BEIGE.jpeg"
+    },
+    {
+        "id": 17,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 18,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 19,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 20,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 21,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 22,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 23,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 24,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    },
+    {
+        "id": 25,
+        "nombre": "",
+        "cantidad": 1,
+        "desc": "",
+        "precio": 5000,
+        "img": ""
+    }
+]

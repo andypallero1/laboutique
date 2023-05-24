@@ -8,8 +8,12 @@ a{
 .alerta{
     font-weight:700;
 }
-body{
-    background-color: #E3D8D6;
+.body{
+    background-image: url(img/LABOUTIQUE.jpeg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     overflow-x: hidden;
 }
 .modal-contenedor{
@@ -37,4 +41,19 @@ a{
 }
 .boton{
     opacity:0;
+}
+.carousel-item{
+    height: 700px;
+}
+.text-white{
+    font-size: 1rem;
+}
+.textwhite{
+    font-size: 2rem;
+    color: #b39070;
+}
+
+.mt-5{
+    min-width: 768px;
+    padding-left: 5rem;
 }

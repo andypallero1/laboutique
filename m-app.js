@@ -51,7 +51,7 @@ if (procesarCompra) {
 let arr = [] ;
 
 const stockProductos = () =>{
-  fetch('data.json')
+  fetch('m-data.json')
     .then(res=>res.json())
     .then(json =>cargarProd(json))
 }
@@ -59,7 +59,7 @@ const stockProductos = () =>{
 const cargarProd = (a) => {
   a.forEach(prod => {
     arr.push(prod);
-    const { id, nombre, precio, desc, img, cantidad } = prod;
+    const { id, nombre, precio, desc, img, talles } = prod;
     if (contenedor) {
       contenedor.innerHTML += `
       <div class="card mt-3" style="width: 18rem;">
@@ -68,7 +68,7 @@ const cargarProd = (a) => {
           <h5 class="card-title">${nombre}</h5>
           <p class="card-text">Precio: ${precio}</p>
           <p class="card-text">Descripcion: ${desc}</p>
-          <p class="card-text">Cantidad: ${cantidad}</p>
+          <p class="card-text">Cantidad: ${talles}</p>
           <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
         </div>
       </div>`;
