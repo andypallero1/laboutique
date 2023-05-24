@@ -1,145 +1,97 @@
 [
 {
     "id": 1,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "nombre": "Buzo Fewai Jupiter",
+    "talles": "s al xl",
+    "cantidad":"1",
     "precio": 5000,
     "img": "img/BUZO NEGRO-A.jpeg"
  },  
 {
-    "id": 1,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "id": 2,
+    "nombre": "Buzo Fewai Mars",
+    "talles": "s al xl",
+    "cantidad":"1",
     "precio": 5000,
     "img": "img/BUZO NEGRO-N.jpeg"
 },
 {
-    "id": 2,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "id": 3,
+    "nombre": "Jogger The Nort Face",
+    "talles": "s al xl",
+    "cantidad":"1",
     "precio": 5000,
     "img": "img/JOGGER TNF AZUL.jpeg"
 },
 {
-    "id": 3,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "id": 4,
+    "nombre": "Jogger The Nort Face",
+    "talles": "s al xl",
+    "cantidad":"1",
     "precio": 5000,
     "img": "img/JOGGER TNF VERDE.jpeg"
 },
 {
-    "id": 4,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "id": 5,
+    "nombre": "Remes The North Face x2",
+    "talles": "s al xl",
+    "cantidad":"1",
     "precio": 5000,
     "img": "img/REMES TNF X2.jpeg"
 },
 {
-    "id": 5,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "id": 6,
+    "nombre": "Remeras Levis x2",
+    "talles": "s al xl",
+    "cantidad":"1",
     "precio": 5000,
     "img": "img/REMES LEVIS X2.jpeg"
 },
 {
-    "id": 6,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
-    "precio": 5000,
-    "img": ""
-},
-{
     "id": 7,
     "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "talles": "",
+    "cantidad":"1",
     "precio": 5000,
     "img": ""
 },
 {
     "id": 8,
     "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "talles": "",
+    "cantidad":"1",
     "precio": 5000,
     "img": ""
 },
 {
     "id": 9,
     "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "talles": "",
+    "cantidad":"1",
     "precio": 5000,
     "img": ""
 },
 {
-    "id": 9,
+    "id": 10,
     "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "talles": "",
+    "cantidad":"1",
     "precio": 5000,
     "img": ""
 },
 {
-    "id": 9,
+    "id": 11,
     "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "talles": "",
+    "cantidad":"1",
     "precio": 5000,
     "img": ""
 },
 {
-    "id": 9,
+    "id": 12,
     "nombre": "",
-    "cantidad": 1,
-    "desc": "",
-    "precio": 5000,
-    "img": ""
-},
-{
-    "id": 9,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
-    "precio": 5000,
-    "img": ""
-},
-{
-    "id": 9,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
-    "precio": 5000,
-    "img": ""
-},
-{
-    "id": 9,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
-    "precio": 5000,
-    "img": ""
-},
-{
-    "id": 9,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
-    "precio": 5000,
-    "img": ""
-},
-{
-    "id": 9,
-    "nombre": "",
-    "cantidad": 1,
-    "desc": "",
+    "talles": "",
+    "cantidad":"1",
     "precio": 5000,
     "img": ""
 }

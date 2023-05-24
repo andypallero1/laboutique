@@ -59,16 +59,16 @@ const stockProductos = () =>{
 const cargarProd = (a) => {
   a.forEach(prod => {
     arr.push(prod);
-    const { id, nombre, precio, desc, img, cantidad } = prod;
+    const { id, nombre, precio, talles, img, cantidad } = prod;
     if (contenedor) {
       contenedor.innerHTML += `
       <div class="card mt-3" style="width: 18rem;">
         <img class="card-img-top mt-2" src="${img}" alt="Card image cap">
         <div class="card-body">
           <h5 class="card-title">${nombre}</h5>
+          <p class="card-text"> ${cantidad}</p>
           <p class="card-text">Precio: ${precio}</p>
-          <p class="card-text">Descripcion: ${desc}</p>
-          <p class="card-text">Cantidad: ${cantidad}</p>
+          <p class="card-text">Talles: ${talles}</p>
           <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
         </div>
       </div>`;
@@ -102,7 +102,7 @@ const mostrarCarrito = () => {
     modalBody.innerHTML = "";
     carrito.forEach(prod => {
       console.log(prod);
-      const { id, nombre, precio, desc, img, cantidad } = prod;
+      const { id, nombre, precio, talles, img, cantidad } = prod;
       console.log(modalBody);
       modalBody.innerHTML += `
       <div class="modal-contenedor">
@@ -112,7 +112,6 @@ const mostrarCarrito = () => {
         <div>
         <p>Producto: ${nombre}</p>
       <p>Precio: ${precio}</p>
-      <p>Cantidad :${cantidad}</p>
       <button class="btn btn-danger"  onclick="eliminarProducto(${id})">Eliminar producto</button>
         </div>
       </div>
