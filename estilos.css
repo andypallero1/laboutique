@@ -57,3 +57,9 @@ a{
     min-width: 768px;
     padding-left: 5rem;
 }
+@media screen and (max-widht:768px){
+    .nav{
+        width: 100%;
+    }
+    
+}
