@@ -58,8 +58,8 @@ a{
     padding-left: 5rem;
 }
 @media screen and (max-widht:768px){
-    .nav{
-        width: 100%;
+    .navbar{
+        width: 100%!important;
     }
     
 }
