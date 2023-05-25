@@ -8,14 +8,7 @@ a{
 .alerta{
     font-weight:700;
 }
-.body{
-    background-image: url(img/LABOUTIQUE.jpeg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    overflow-x: hidden;
-}
+
 .modal-contenedor{
     display:flex;
     align-items: center;
@@ -50,16 +43,48 @@ a{
 }
 .textwhite{
     font-size: 2rem;
-    color: #b39070;
+    color: rgb(196, 196, 196);
 }
 
 .mt-5{
     min-width: 768px;
     padding-left: 5rem;
 }
-@media screen and (max-widht:768px){
-    .navbar{
-        width: 100%!important;
-    }
+.off{
+    font-size: large;
+    color: gray;
+    background-color: rgba(0, 0, 0, 0.9);
+    text-align: center;
+    padding: 20px;
+}
+.logo{
+    justify-content: center;
+    display: flex;
+    padding: 2rem;
+    width: auto;
+    height: 600px;
+}
+.imglb{
+    width: 30%;
+    padding: 1rem;
+    margin-block: black;
+}
+.body{
+    background-color: black;
+}
+.card-body{
+    background-color: rgb(196, 196, 196);
+}
+.card{
+    background-color: rgb(196, 196, 196);
+    border-color: rgb(196, 196, 196);
+    margin: 5px;
+}
+.btn-primary{
+    background-color: black;
+    border-color: black;
     
+}
+.card-title, .card-text{
+    color: black;
 }
