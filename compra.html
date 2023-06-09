@@ -26,22 +26,44 @@
 </head>
 
 <body>
-    <header>
-        <nav class="navbar navbar-light bg-dark min-vw-100">
-            <a href="index.html"><h2 class="p-3 text-white">LA BOUTIQUE</h2></a>
-            <a href="hombre.html"><h1 class="p-3 text-white">Hombre</h1></a>
-            <a href="hombre.html"><h1 class="p-3 text-white">Mujer</h1></a>
-            <ul class="navbar-nav">
-                <li class="nav-item">
-                    <a class="nav-link text-white" data-bs-toggle="modal" data-bs-target="#modal">
-                        <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
-                    </a>
-                    <a class="text-white" href="index.html">Volver</a>
-                </li>
-            </ul>
+    <header class="header">
+        <div class="logoi">
+          <a href="index.html"><img src="./img/la-boutique.png" alt="Logo de la marca"></a>
+      </div>
+        <nav>
+           <ul class="nav-l">
+                <li><a href="hombre.html">Hombre</a></li>
+                <li><a href="mujer.html">Mujer</a></li>
+                <li><a href="niños.html">Niños</a></li>
+           </ul>            
         </nav>
-    </header>
-
+        <li class="nav-item">
+          <a
+            class="nav-links text-white"
+            data-bs-toggle="modal"
+            data-bs-target="#modal">
+            <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
+          </a>
+        </li>
+        <a onclick="openNav()" class="menu" href="#"><button>Menú</button></a>
+    
+        <div class="overlay" id="mobile-menu">
+          <a onclick="closeNav()" href="" class="close">&times;</a>
+          <div class="overlay-content">
+            <li><a href="hombre.html">Hombre</a></li>
+            <li><a href="mujer.html">Mujer</a></li>
+            <li><a href="niños.html">Niños</a></li>
+            <li class="nav-item">
+              <a
+                class="nav-links text-white"
+                data-bs-toggle="modal"
+                data-bs-target="#modal">
+                <i class="bi bi-cart mx-5" id="carritoContenedor">0</i>
+              </a>
+            </li>    
+          </div>  
+        </div>
+      </header>
     <button id="activarFuncion" class="btn btn-secondary boton mt-2">¡Click!</button>
 
     <main>
@@ -82,8 +104,7 @@
                                 <tr>
                                     <th colspan="4" scope="col" class="text-right">TOTAL
                                         <p id="totalProceso"></p>
-                                    </th>
-                                    <!-- <th scope="col"></th> -->
+                                    <th scope="col"></th>
                                 </tr>
 
                             </table>
@@ -118,7 +139,9 @@
 
 
 
-    <script src="app.js"></script>
+    <script src="n-app.js"></script>
+    <script src="h-app.js"></script>
+    <script src="m-app.js"></script>
     <script src="bootstrap.bundle.min.js"></script>
     <script src="//cdn.jsdelivr.net/npm/sweetalert2@11"></script>
 

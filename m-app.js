@@ -59,7 +59,7 @@ const stockProductos = () =>{
 const cargarProd = (a) => {
   a.forEach(prod => {
     arr.push(prod);
-    const { id, nombre, precio, desc, img, talles } = prod;
+    const { id, nombre, precio, cantidad, img, talles } = prod;
     if (contenedor) {
       contenedor.innerHTML += `
       <div class="card mt-3" style="width: 18rem;">
@@ -67,7 +67,7 @@ const cargarProd = (a) => {
         <div class="card-body">
           <h5 class="card-title">${nombre}</h5>
           <p class="card-text">Precio: ${precio}</p>
-          <p class="card-text">Descripcion: ${desc}</p>
+          <p class="card-text"> ${cantidad}</p>
           <p class="card-text">Cantidad: ${talles}</p>
           <button class="btn btn-primary" onclick="agregarProducto(${id})">Comprar Producto</button>
         </div>
@@ -102,7 +102,7 @@ const mostrarCarrito = () => {
     modalBody.innerHTML = "";
     carrito.forEach(prod => {
       console.log(prod);
-      const { id, nombre, precio, desc, img, cantidad } = prod;
+      const { id, nombre, precio, img, cantidad } = prod;
       console.log(modalBody);
       modalBody.innerHTML += `
       <div class="modal-contenedor">
@@ -160,7 +160,8 @@ function procesarPedido() {
               <td>
               <img class="img-fluid img-carrito" src="${img}"/>
               </td>
-              <td>${nombre}</td>
+              <td>${id}</td>  
+            <td>${nombre}</td>
             <td>${precio}</td>
             <td>${cantidad}</td>
             <td>${precio * cantidad}</td>

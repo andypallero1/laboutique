@@ -84,7 +84,7 @@
 
 
 /**/@media screen and (max-width: 900px){
-    .nav-links, .btn {
+    .nav-links {
         display: none;
     }
     .menu {
@@ -96,15 +96,28 @@
     .body{
         justify-content: center;
     }
+    .imglb{
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+
+    }
 }
 
 @media screen and (min-width: 900px){
     .mt-5{
         padding-left: 5rem;
     }
+        .imglb{
+        height: 450px!important;
+        margin-bottom: 4rem;
+        margin-top: 2rem;
+    }
 }
-
-
+@media screen and (min-width: 1200px){
+    .imglb{
+        height: 600px!important;
+    }
+}
 
 
 /*Nav Mobile*/
@@ -167,9 +180,6 @@
     }
     .mt-5{
         padding-left: 5rem;
-    }
-    .imglb{
-        height: 30px;
     }
 }
 .imagen{
@@ -237,8 +247,10 @@ a{
 }
 .imglb{
     width: 30%;
+    height: 500px;
     padding: 0.5rem;
     margin-block: #141414;
+    height: auto;
 }
 .body{
     background-color: #141414;
