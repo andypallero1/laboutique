@@ -15,18 +15,17 @@
     font-size: 20px;
 }
 
-.header .logo{
+.header .logoi{
     cursor: pointer;
-    margin-top: 470px;
 }
 
-.header .logo img{
+.header .logoi img{
     height: 70px;
     width: auto;
     transition: all 0.3s;
 }
 
-.header .logo img:hover{
+.header .logoi img:hover{
     transform: scale(1.2);
 }
 
@@ -73,7 +72,7 @@
     border-radius: 50px;
     cursor: pointer;
     transition: all 0.3s ease 0s;
-    margin-right: 30px;
+    margin-right: 20px;
 }
 
 .header .btn button:hover,
@@ -91,7 +90,20 @@
     .menu {
         display: inherit;
     }
+    .mt-5{
+        justify-content: center;
+    }
+    .body{
+        justify-content: center;
+    }
 }
+
+@media screen and (min-width: 900px){
+    .mt-5{
+        padding-left: 5rem;
+    }
+}
+
 
 
 
@@ -119,7 +131,8 @@
     height: 100%;
     flex-direction: column;
     align-items: center;
-    justify-content: center;    
+    justify-content: center;
+    list-style: none; 
 }
 
 .header .overlay a{
@@ -152,6 +165,12 @@
         top: 15px;
         right: 35px;
     }
+    .mt-5{
+        padding-left: 5rem;
+    }
+    .imglb{
+        height: 30px;
+    }
 }
 .imagen{
     max-width:100%;
@@ -172,6 +191,7 @@ a{
 .img-carrito{
     width:200px;
     padding:20px;
+
 } 
 .modal-content{
     background-color: #eceff1;
@@ -201,10 +221,6 @@ a{
     color: rgb(196, 196, 196);
 }
 
-.mt-5{
-    min-width: 768px;
-    padding-left: 5rem;
-}
 .off{
     font-size: large;
     color: #eceff1;
@@ -215,13 +231,13 @@ a{
 .logo{
     justify-content: center;
     display: flex;
-    padding: 2rem;
+    padding: 1rem;
     width: auto;
-    height: 600px;
+    height: auto;
 }
 .imglb{
     width: 30%;
-    padding: 1rem;
+    padding: 0.5rem;
     margin-block: #141414;
 }
 .body{
